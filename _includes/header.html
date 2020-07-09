@@ -38,9 +38,9 @@
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'Home' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-							<li {% if current[1] == 'Consulting' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Consulting">Consulting</a></li>
+							<li {% if current[1] == 'Consulting' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Consulting.html">Consulting</a></li>
 							<li {% if current[1] == 'Development' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Development.html">Development</a></li>
-							<li {% if current[1] == 'Management' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Management</a></li>
+							<li {% if current[1] == 'Management' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Management.html">Management</a></li>
 							<li {% if current[1] == 'Security' %}class="current"{% endif %}><a href="{{ site.baseurl }}/Security.html">Security</a></li>
 							<li {% if current[1] == 'About' %}class="current"{% endif %}><a href="{{ site.baseurl }}/About.html">Über uns</a></li>
 						</ul>
